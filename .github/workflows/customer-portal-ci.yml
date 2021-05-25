@@ -24,12 +24,13 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v1                       
+      - name: Install NodeJS
+        uses: actions/setup-node@v1
       - name: Install portal cli
         run: npm install -g kong-portal-cli           
       # We will push to the Kong dev portal
       - name: Deploy to dev portal
-        run: |                    
-          cp workspaces/default/cli.conf.yaml.example workspaces/default/cli.conf.yaml
+        run: |                          
           portal deploy customer --preserve default
         env:
           KONG_ADMIN_URL: ${{ secrets.KONG_ADDR }}
