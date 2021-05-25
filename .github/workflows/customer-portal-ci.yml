@@ -31,7 +31,7 @@ jobs:
       # We will push to the Kong dev portal
       - name: Deploy to dev portal
         run: |                          
-          portal deploy customer --preserve default
+          portal deploy customer
         env:
           KONG_ADMIN_URL: ${{ secrets.KONG_ADDR }}
           KONG_ADMIN_TOKEN: ${{ secrets.KONG_ADMIN_TOKEN }}
