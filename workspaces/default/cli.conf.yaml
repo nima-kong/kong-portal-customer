@@ -1,6 +1,6 @@
 # Kong Admin URL
 # @required
-kong_admin_url: http://localhost:8001
+kong_admin_url: ''
 
 # Kong Admin Token
 # @optional
