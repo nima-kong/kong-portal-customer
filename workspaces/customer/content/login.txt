@@ -12,7 +12,7 @@ locale:
   login_side_header: "Welcome back 🙌"
   login_side_content: >
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit test.
 
   login_home_link_text: "← Go back home"
 
