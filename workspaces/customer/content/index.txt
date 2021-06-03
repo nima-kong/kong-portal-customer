@@ -4,5 +4,5 @@ title: Home
 
 hero:
   title: Built with Kong
-  tagline: Empowering your developers across the globe.
+  tagline: Empowering ANZ developers across the globe.
 ---
