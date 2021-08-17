@@ -27,7 +27,7 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v1
       - name: Install portal cli
-        run: npm install -g kong-portal-cli@3.1.0           
+        run: npm install -g kong-portal-cli           
       # We will push to the Kong dev portal
       - name: Deploy to dev portal
         run: |                          
